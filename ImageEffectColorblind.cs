@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(Camera))]
-public class ImageEffectDaltonize : MonoBehaviour
+public class ImageEffectColorblind : MonoBehaviour
 {
     private const HideFlags DontSave = HideFlags.DontSaveInBuild | HideFlags.DontSaveInEditor;
     private const int NumCategories = 9;
